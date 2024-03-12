@@ -29,7 +29,7 @@ namespace AppOggetti
     {
         static void Main(string[] args)
         {
-            var persona = new Person(new DateTime(2003, 5, 2), "Luca", "Turinn");
+            var persona = new Person(new DateTime(2003, 5, 2), "Luca", "Turin");
             Console.WriteLine(persona.Age);
             Console.WriteLine(persona.Name);
             Console.WriteLine(persona.Surname);
